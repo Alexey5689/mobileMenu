@@ -1,0 +1,26 @@
+$fs:22px;
+$ff:'Golos';
+.servisBody{
+    height: 73px;
+    width: 100%;
+    display: flex;
+    .services_wrapp{
+        height: 100%;
+        width: 300px;
+        display: flex;
+        padding-left: 12.29px;
+        .services{
+            width: 300px;
+            height: 32px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            font-size: $fs;
+            font-family: $ff;
+            cursor: pointer;
+            .svg{
+                margin-right: 10.65px;
+            }
+        }
+    }
+}

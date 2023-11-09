@@ -1,0 +1,47 @@
+$ff:'Golos';
+$fs:22px;
+$hi:32px;
+$hi2:60px;
+$fss:18px;
+.servBod_wrapp{
+    width: 100%;
+    height: 448px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    .serBod{
+        width: 300px;
+        height: 216px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: $ff;
+        font-size: $fss;
+        .serBod_select{
+            width: 100%;
+            height: $hi;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            cursor: pointer;
+            
+            
+        }
+        .serBod_select2{
+            width: 100%;
+            height: $hi2;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            cursor: pointer;
+            .serBod_select2_warapp{
+                width: 80%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+       
+    }
+}

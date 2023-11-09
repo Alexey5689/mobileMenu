@@ -1,0 +1,35 @@
+.servisBody {
+  height: 73px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.servisBody .services_wrapp {
+  height: 100%;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 12.29px;
+}
+.servisBody .services_wrapp .services {
+  width: 300px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  font-size: 22px;
+  font-family: "Golos";
+  cursor: pointer;
+}
+.servisBody .services_wrapp .services .svg {
+  margin-right: 10.65px;
+}

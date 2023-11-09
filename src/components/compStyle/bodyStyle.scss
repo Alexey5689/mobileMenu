@@ -1,0 +1,19 @@
+$fs:18px;
+$ff:'Golos';
+.body_wrapper{
+    height: 521px;
+    width: 360;
+    padding: 0px 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .serBod{
+        width: 300px;
+        height: 216px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+}
